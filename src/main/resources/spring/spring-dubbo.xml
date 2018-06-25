@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+				http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+				http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+
+         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd  ">
+
+	<dubbo:application name="mascot-dubbo"/>
+	<dubbo:registry address="zookeeper://10.128.5.97:2181" username="jerry" password="udcjerry"/>
+	<dubbo:protocol name="dubbo" port="20883"/>
+	<!--<dubbo:service interface="com.mascot.service.**" ref="**impl"/>-->
+
+	<!-- consumer -->
+	<dubbo:reference id="fileBasicService" check="true" interface="com.interfaces.file.BasicService" init="true"/>
+	<dubbo:reference id="userInfoService" check="true" interface="com.interfaces.usercenter.UserInfoService" init="true"/>
+
+
+	<dubbo:reference id="authorityManager" check="true" interface="com.interfaces.mascot.AuthorityManager" init="true"
+					 timeout="20000"/>
+	<!-- 图书管理 -->
+	<dubbo:reference id="bookManageService" check="true" interface="com.interfaces.mascot.BookManageService" init="true"
+					 timeout="20000"/>
+	<!--权限管理-->
+	<dubbo:reference id="roleManageService" check="true" interface="com.interfaces.mascot.RoleManageService" init="true"
+					 timeout="20000"/>
+	<!--模块管理-->
+	<dubbo:reference id="moduleManageService" check="true" interface="com.interfaces.mascot.ModuleManageService" init="true"
+					 timeout="20000"/>
+	<!--账号管理-->
+	<dubbo:reference id="userManageService" check="true" interface="com.interfaces.mascot.UserManageService" init="true"
+					 timeout="20000"/>
+	<!--部门管理-->
+	<dubbo:reference id="departmentManageService" check="true" interface="com.interfaces.mascot.DepartmentManageService" init="true"
+					 timeout="20000"/>
+	<!--专家管理-->
+	<dubbo:reference id="specialistManageService" check="true" interface="com.interfaces.mascot.SpecialistManageService" init="true"
+					 timeout="20000"/>
+	<!--知识仓库-->
+	<dubbo:reference id="knowledgeManageService" check="true" interface="com.interfaces.mascot.KnowledgeManageService" init="true"
+					 timeout="20000"/>
+	<!-- 知识仓库分类 -->
+	<dubbo:reference id="repositoryCategoryService" check="true" interface="com.interfaces.mascot.RepositoryCategoryService" init="true"
+					 timeout="20000"/>
+	<!-- 知识仓库流程节点分类 -->
+	<dubbo:reference id="repositoryCategoryFlowService" check="true" interface="com.interfaces.mascot.RepositoryCategoryFlowService" init="true"
+					 timeout="20000"/>
+
+	<!--社区贴文分类-->
+	<dubbo:reference id="essayTypeService" check="true" interface="com.interfaces.mascot.EssayTypeService" init="true"
+					 timeout="20000"/>
+
+	<!--社区模块-->
+	<dubbo:reference id="bbsManageService" check="true" interface="com.interfaces.mascot.BbsManageService" init="true"
+					 timeout="20000"/>
+
+	<!--考试培训分类-->
+	<dubbo:reference id="exCategoryService" check="true" interface="com.interfaces.mascot.ExCategoryService" init="true"
+					 timeout="20000"/>
+
+	<!--考试管理-->
+	<dubbo:reference id="examManageService" check="true" interface="com.interfaces.mascot.ExamManageService" init="true"
+					 timeout="20000"/>
+
+	<!--信息管理-->
+	<dubbo:reference id="messageManageService" check="true" interface="com.interfaces.mascot.MessageManageService" init="true"
+					 timeout="20000"/>
+
+</beans>

@@ -1,0 +1,48 @@
+/*图书管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+.books-table{margin-top: 24px;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height:58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:110px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-table{margin-top: 24px;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+.add-books{display: block;width:320px;height:60px;border-radius: 5px; color:#4c4c4c;margin:45px auto 0;line-height: 60px;text-align: center;border:1px solid #7a8ce3;}
+.add-books span{display: inline-block;width:20px;height:20px;margin-right:15px;line-height: 18px;text-align: center;border:1px solid #7a8ce3;color: #7a8ce3;}
+.add-books:hover{background: #7a8ce3;color: #fff;}
+.add-books:hover span{border:1px solid #fff;color: #fff;}
+
+.books-edit-main{padding:66px 0 82px 44px;background: #fff;border-radius: 0 0 5px 5px;}
+.books-edit-list{margin-bottom:6px;font-size: 0;}
+.books-edit-list span{display: inline-block;vertical-align: middle;width:80px;margin-right:10px;text-align:right;font-size: 14px;color: #4c4c4c;}
+.books-edit-list>input{vertical-align: middle;width:200px;height:36px;padding-left:18px;border:1px solid #c6cfe9;border-radius: 5px;}
+.books-edit-list>input:focus{border:1px solid #7a8ce3;}
+.books-edit-name>input{width:420px;}
+.books-edit-main a{display: block;width:85px;height:35px;margin:27px 0 0 90px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 35px;text-align: center;}
+.books-btn-no a:hover{background:none;color: #4c4c4c;}
+.books-btn-no a.hover:hover{color: #fff;}
+.loan-record{padding: 40px 55px 60px;background:#fff;border-radius: 0 0 5px 5px;}
+.loan-record table{width:100%;}
+.loan-record table td{height:40px;border:1px solid #c6cfe9;text-align: center;}
+.loan-record thead td{text-align: center; background: #eaeef6;color: #7a8ce3;}
+.loan-record thead td:nth-child(2n+1){background: #f4f6fa;}
+.firstQuestion{padding-right:10px;margin-right:30px;}
+
+.question-main{padding:36px 20px 42px 30px;background: #fff;border-radius: 0 0 5px 5px;}
+.question-main>div{margin-bottom:15px;}
+.question-main>div span{float:left;width:75px;line-height:1.3;}
+.question-main>div div{margin-left:75px;line-height:1.3;}
+.data-edit{width:500px;}
+.books-name{  white-space:nowrap;overflow:hidden;text-overflow: ellipsis;width:100%;padding:0 10px;}
+.books-btn>a{border:1px solid transparent;}
+.books-btn>a:hover{border-color:#7a8ce3; background-color: #fff; color:#7a8ce3}

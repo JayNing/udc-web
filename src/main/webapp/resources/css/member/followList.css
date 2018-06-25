@@ -1,0 +1,16 @@
+/*我的关注*/
+.message-notification{padding: 45px 55px 100px;}
+.notification-title{font-size:0;padding-bottom: 26px;border-bottom: 1px solid #eaeef6;}
+.notification-title img{margin-right:15px;}
+.notification-title>span{display:inline-block;vertical-align: middle;font-weight: 500; font-size:16px;}
+.notification-title>span a{color: #7a8ce3;}
+.post-wrap{padding-top:15px;}
+.my-follow{margin-top:30px;padding: 36px 54px 24px;background: #fcfcfd;}
+.my-follow-main{margin-top:26px;width:830px;}
+.my-follow-list{float: left; margin: 0 0 15px 35px;font-size: 0;width:130px;}
+.my-follow-list>div{display: inline-block;vertical-align: middle;}
+.follow-photo{width:40px;height:40px;border-radius: 50%;margin-right: 12px;background-repeat:no-repeat;background-position:center;background-size:cover;}
+.follow-user{font-size: 14px;width: 78px;white-space: nowrap;}
+.follow-user h4{color: #8f8f8f;}
+.follow-user span{display: block; margin-top:5px;color: #7a8ce3;}
+.follow-more{float: left; width:40px;height:40px;margin-left: 35px;cursor:pointer;line-height: 40px;text-align: center; color: #c6cfe9;border:1px solid #c6cfe9;border-radius: 50%;}

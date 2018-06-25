@@ -1,0 +1,51 @@
+/*智能搜索检索结果*/
+.search-result{padding: 30px 0 55px;}
+.search-show-left{float: left;width:74%;padding-bottom: 27px; background: #fff;}
+.search-bar{float: right;width:25%;}
+.repository-type .repository-label{}
+.repository-type .repository-label>div{width:82%;padding:10px 0 10px 65px;background: #7a8ce3;}
+.repository-type .repository-label>a{width:18%;text-align: center; background: #51525b;padding:10px 0;}
+.repository-type .repository-label>a span{display: inline-block;width:13px;height:13px;margin-right:8px;line-height:10px;text-align:center;font-size:14px;color:#7a8ce3;border-radius:2px;border:1px solid #7a8ce3;}
+.repository-label>div div{float:left;margin-right:12px;color: #fff;line-height: 32px;}
+.repository-label a{float: right;line-height: 32px;color: #fff;}
+.repository-label>div span{float:left;width:70px;height:32px;margin-right:5px;cursor: pointer; background:#90a0e7;color: #fff; line-height: 32px;border-radius:3px;text-align: center;}
+.repository-label>div span:hover{transition: all .5s; background: #fff;color: #90a0e7;}
+/*新闻列表*/
+.search-list-main{padding: 22px 65px 0;}
+.search-list{margin-top:28px;padding-bottom: 30px;border-bottom: 1px solid #eaeef6;}
+.search-list a{display: block; line-height: 25px; color: #4c4c4c;font-size: 16px;}
+.search-list a.hover,.search-list a:hover{color:#7a8ce3;}
+.search-list a img{margin-left:10px;vertical-align: -2.5px;}
+.search-list p{margin:0 0 5px;line-height:20px;color: #b5b5b5;font-size: 12px;}
+.search-list div{}
+.search-list span{float: left;width:68px;height:28px;cursor:pointer;margin-right: 5px; text-align: center;line-height: 28px;border-radius: 5px;background: #f4f6fa;color: #7a8ce3;font-size: 12px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.search-list span:hover{color:#f4f6fa;  background-color: #7a8ce3;}
+.search-page{margin: 30px 0 0 65px;}
+.page-text.none{display: none;}
+.documentation{margin-bottom: 5px;}
+.search-bar-right{float:right;width:25%;}
+/*最近浏览*/
+.repository-label>div{float: left;}
+.browse-record h3{margin-bottom: 15px; padding-bottom:20px;border-bottom:1px solid #eaeef6;color: #4c4c4c;font-size: 16px;font-weight: 600;}
+.browse-list{margin-bottom: 26px;}
+.browse-list a{line-height: 1.5;color: #4c4c4c;font-size: 14px;}
+.browse-list a:hover{color: #7a8ce3;}
+.browse-list div{margin-top:5px;}
+.browse-list div span{ cursor: pointer;float: left;float: left;width:68px;height:28px;margin-right: 5px; text-align: center;line-height: 28px;border-radius: 5px;background: #f4f6fa;color: #7a8ce3;font-size: 12px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.browse-list div span:hover{color:#f4f6fa;  background-color: #7a8ce3;}
+.browse-record{padding: 30px 35px 10px;background: #fff;}
+/*智能推荐*/
+.recommend-list{margin-bottom: 15px;}
+.recommend-list div{}
+.recommend-list span{display: inline-block;vertical-align: middle;width:5px;height: 5px;margin-right:10px;border-radius: 50%;background: #7a8ce3;}
+.recommend-list a{display: inline-block;vertical-align: middle; width:80%;color:#4c4c4c;font-size:14px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.recommend-list a:hover{color: #7a8ce3;}
+.recommend-list img{margin-left: 10px;}
+.recommend-list p{margin-top:2px;padding-left:15px;color: #b5b5b5;font-size: 12px;}
+.intelligent-search{position: relative;width:100%;height:68px;padding: 0 25px;line-height:68px;border-radius:5px;background: #fff;}
+.intelligent-search i{font-size: 30px;color: #7a8ce3;}
+.intelligent-search .icon-sousuo{float: left;cursor: pointer;}
+.intelligent-search .icon-youjiantou1{float: right;cursor: pointer;}
+.intelligent-search input{width:60%;float:left;margin-left:22px;line-height:68px;}
+.intelligent-search input::-webkit-input-placeholder{font-size: 16px;}
+.books-page{margin-top:28px;text-align: center;}

@@ -1,0 +1,16 @@
+/*会员中心 -帖子列表*/
+.message-notification{padding: 45px 55px 100px;}
+.notification-title{font-size:0;padding-bottom: 26px;border-bottom: 1px solid #eaeef6;}
+.notification-title img{margin-right:15px;}
+.notification-title>span{display:inline-block;vertical-align: middle;font-weight: 500; font-size:16px;}
+.notification-title>span a{color: #7a8ce3;}
+.post-wrap{padding-top:15px;}
+.post-main{margin-top:20px;}
+.post-list{margin-bottom: 12px;color: #4c4c4c;}
+.post-list div{margin-left:50px;display: inline-block;vertical-align: middle;}
+.post-list div a{color: #7a8ce3;}
+.post-list>a{display:inline-block;vertical-align: middle; color: #4c4c4c;line-height: 25px;}
+.post-list:hover a{color: #7a8ce3;}
+.post-list:hover span{background-color: #7a8ce3;}
+.post-dian{display: inline-block;vertical-align: middle;width:5px;height:5px;margin:0 20px 0 10px;border-radius: 50%;background: #c9c9c9;}
+.post-label{display: inline-block;vertical-align: middle;margin:0 0 0 3px;padding:4px 7px;border-radius: 5px;background:#7a8ce3;color: #fff;font-size: 12px;}

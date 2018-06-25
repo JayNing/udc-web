@@ -1,0 +1,50 @@
+/*知识仓库管理-录入知识*/
+.warehouse-form{padding: 45px 55px 66px;}
+.notification-title{font-size:0;padding-bottom: 26px;border-bottom: 1px solid #eaeef6;}
+.notification-title img{margin-right:15px;}
+.notification-title>span{display:inline-block;vertical-align: middle;font-weight: 500; font-size:16px;}
+.notification-title>span a{color: #7a8ce3;}
+/*知识仓库表单*/
+.warehouse-form{padding: 45px 55px 66px;}
+.warehouse-info{margin-top:25px;}
+.warehouse-text{margin-bottom: 8px;}
+.warehouse-text>span{float:left;width:109px;margin:16px 10px 0 0;text-align: right;}
+.warehouse-text>input{float: left;width:80%;text-indent:10px;height:42px;border-radius: 5px; border:1px solid #c6cfe9;}
+.warehouse-text>input:focus,.warehouse-text textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}
+.warehouse-text>i{float: left;margin:12px 0 0 10px;}
+.warehouse-text>textarea{float: left;width:80%;height:150px;padding:10px;border-radius: 5px; border:1px solid #c6cfe9;}
+.warehouse-text>div{float: left;}
+.warehouse-radio label{position: relative; float: left;margin-right:20px;}
+.warehouse-radio input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.warehouse-radio i{margin-right:5px;font-size:26px;color: #7a8ce3;}
+.warehouse-radio i:after{content:'\e667';}
+.warehouse-radio input:checked+i:after{content: "\e63a";}
+.warehouse-radio span{display: inline-block;vertical-align: top;line-height: 26px;}
+.warehouse-author>input{width:160px;}
+.warehouse-key>input{width:465px;}
+.warehouse-key>div{position: relative; float: left;width:165px;height:40px;line-height: 40px;text-align: center; margin-left:15px;border-radius: 5px; border:1px solid #c6cfe9;color: #7a8ce3;}
+.warehouse-key>div input{position: absolute;left: 0;top:0;width: 100%;height:100%;cursor:pointer; opacity: 0;z-index: 100;}
+.warehouse-add>span{margin:7px 15px 0 0;}
+.warehouse-add{margin:25px 0 20px;}
+.warehouse-submit{display:block;width:217px;height:40px;margin:30px 0 0 119px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align: center;line-height: 40px;}
+.warehouse-submit:hover{background: #4864e9;}
+.warehouse-classification{margin-bottom: 14px;}
+.warehouse-classification>span{float:left;width:109px;margin:16px 10px 0 0;text-align: right;}
+.warehouse-classification>select{float: left;width:150px;text-indent:10px;height:42px;background: url('../../images/app/select-icon.png') no-repeat 90% center;border-radius: 5px; border:1px solid #c6cfe9;}
+.key-left-space{margin-left: 20px;}
+/*录入知识弹框*/
+.data-edit{position: absolute;right:18%;top:10%; width:700px;}
+.data-edit-head{position: relative; padding: 0 20px;border-radius: 5px 5px 0 0; line-height: 50px;background: #7a8ce3;}
+.data-edit-head div:first-child{float: left;font-size:16px;color: #fff;}
+.data-edit-head div img{margin-right:8px;vertical-align: -3px;}
+.data-edit-head>span{float: right;width:20px;cursor:pointer;text-align: right;color: #fff;}
+.similarity-article{padding: 36px 0 46px 40px;border-radius:0 0 5px 5px;background: #fff;}
+.similarity-article h3{margin-bottom:30px;font-size: 18px;color: #4c4c4c;}
+.similarity-article p{margin-bottom: 15px;}
+.similarity-article p a{color: #4c4c4c;}
+.similarity-article p a:hover{color: #7a8ce3;}
+.similarity-article p span{margin-left:13px;color: #7a8ce3;}
+.similarity-article p img{margin-left:10px;}
+.similarity-article>a{display: block;width:95px;height:36px;margin-top:45px;line-height: 36px;text-align: center;background:#7a8ce3;border-radius: 5px;color: #fff;}
+
+.key-textarea{width:80%;}

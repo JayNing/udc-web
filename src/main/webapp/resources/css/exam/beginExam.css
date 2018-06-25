@@ -1,0 +1,76 @@
+/*
+*开始考试css
+*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.test-paper-content{padding:32px 0;text-align: center;}
+.test-paper-content h3{color: #7a8ce3;font-size: 20px;font-weight: 600;}
+.test-paper-content p{margin-top:8px;text-align: center;color: #4c4c4c;}
+.test-paper-examination{margin-top:25px;border:1px dashed #c6cfe9;}
+.test-paper-title{height:60px;line-height: 60px;border-bottom: 1px dashed #c6cfe9; padding-left:28px;font-size: 16px;background: #eaeef6; color: #4c4c4c;}
+.test-paper-title span{font-weight: 600;margin-right:10px;}
+.test-paper-modular{padding: 28px 0 0 30px;}
+.test-paper-modular h3{font-size: 16px;color: #7a8ce3;}
+.test-paper-modular h3 a{display: inline-block;padding: 5px 8px;border-radius: 5px; font-size:14px;background: #eaeef6;color: #4c4c4c;}
+.test-paper-modular>div{margin-top:30px;}
+.problem-list{margin-bottom: 35px;}
+.problem-subject{color: #4c4c4c;}
+.problem-subject em{display: inline-block;margin-right:22px;width:35px;padding: 4px 0;color:#fff; background: #7a8ce3;border-radius: 4px;text-align: center;}
+.problem-subject span{font-weight: 600;color: #4c4c4c;}
+.problem-subject span span{color: #7a8ce3;font-weight: 400;}
+.problem-subject i{display: inline-block;width:20px;height:20px;line-height:17px;text-align: center; margin-left:8px;border-radius: 50%;background: #ed2624;color: #fff;}
+.problem-option{margin-top:12px;padding-left:57px;}
+.problem-option>div{margin-bottom: 8px;}
+.problem-option>div span{margin-right:36px;color: #4c4c4c;}
+.problem-option>div span em{font-weight: 600;}
+.test-paper-modular .add-problem{display: block;width:85px;height:35px;margin:50px 0 40px 57px;text-align: center;line-height: 35px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.problem-option label{position: relative;margin-right:13px;}
+.problem-option input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.problem-option i{font-size:16px;color: #7a8ce3;}
+.problem-option i:after{content:'\e764';}
+.problem-option input:checked+i:after{content: "\e75b";}
+.problem-judge{margin-top:18px;}
+.problem-qa{margin-bottom: 20px;}
+.test-paper-footer{padding: 22px 30px;background: #eaeef6;}
+.test-paper-footer a{display: block;width:105px;height:35px;text-align: center;line-height: 35px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.test-submit{display: block;width:218px;height:42px;margin:42px auto 0; text-align: center;line-height: 42px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+/*选择模块弹窗*/
+.problem-add{padding:32px 0 50px 45px ;background: #fff;border-radius: 0 0 5px 5px;}
+.problem-add div{margin-bottom:10px;font-size: 0;}
+.problem-add div span{display: inline-block;vertical-align: middle;width:80px;margin-right:10px;text-align:right;font-size: 14px;color: #4c4c4c;}
+.problem-add div>input,.problem-add div>select{vertical-align: middle;width:190px;height:40px;padding-left:18px;border:1px solid #c6cfe9;border-radius: 5px;}
+.problem-add div input:focus{border:1px solid #7a8ce3;}
+.problem-add .problem-submit{display: block;width:102px;height:40px;margin:22px 0 0 90px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 40px;text-align: center;}
+.problem-add select{background: url('../../images/app/select-icon.png') no-repeat 95% center;color:#4c4c4c;line-height: 42px;border:1px solid #c6cfe9;border-radius: 5px;padding-left:24px;}
+
+/**/
+.paper-selection{background: #fff;border-radius: 0 0 5px 5px;}
+.paper-input{padding: 6px 25px;background: #eaeef6;}
+.paper-input>input{float: left;width:39.6%;height:36px;padding-left:20px;margin-right:8px;border-radius: 5px;background: #fff}
+.paper-input>div{float: left;}
+.paper-input>div input{width:115px;height:38px;border-radius:5px;text-align:center;}
+.paper-input a{float: left;width:95px;height:36px;margin-left:5px;line-height: 36px;text-align: center;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.paper-data{padding: 20px 0 0;}
+.paper-classification{border-bottom:1px solid #7a8ce3;margin: 0 25px;}
+.paper-classification a{float:left;width:160px;height:40px;line-height:40px;text-align:center;color:#7a8ce3;background:#eaeef6;margin-right:1px;}
+.paper-classification a.hover{background:#7a8ce3;color:#fff;}
+.test-paper{padding: 29px 25px 30px 50px;background: #fff;}
+.test-paper-list{margin-bottom: 20px;}
+.test-paper-list label{display: block;}
+.test-paper-list div{position: relative; float: left;margin-right:13px;}
+.test-paper-list input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.test-paper-list i{font-size:16px;color: #7a8ce3;}
+.test-paper-list i:after{content:'\e604';}
+.test-paper-list input:checked+i:after{content: "\e64f";}
+.test-paper-list span{float: left;margin:1px 50px 0 0;color: #4c4c4c;}
+.test-paper .test-page{margin:36px 0 0 29px;}
+.test-paper-submit{padding: 20px 0 25px 75px;background:#eaeef6;}
+.test-paper-submit a{display: inline-block;width:218px;height:42px;line-height: 42px;text-align: center;background: #7a8ce3;color:#fff;border-radius: 5px;}
+.test-page a{margin-right:5px;}
+.test-paper-list .test-time{color: #9a9a9b;}
+.paper-data .test-time{float: right;margin-right:0;}
+.reference-answer textarea{margin: 5px 0 0 63px;width:422px;height:160px;padding:10px;border:1px solid #c6cfe9;border-radius: 5px;}
+.reference-answer textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8}
+.begin-submit {text-align: center;border-top: 1px dashed #c6cfe9;}
+.begin-submit a{display:inline-block;margin:15px 0;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px;line-height: 33px;font-size:14px;}

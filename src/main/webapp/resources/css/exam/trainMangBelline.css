@@ -1,0 +1,36 @@
+/*考试培训-培训管理-发起线下*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.classification{border-bottom:1px solid #7a8ce3;margin-left: -55px;padding-left: 55px;}
+.classification a{float:left;width:160px;height:40px;line-height:40px;text-align:center;color:#7a8ce3;background:#eaeef6;margin-right:1px;}
+.classification a.hover{background:#7a8ce3;color:#fff;}
+.on-line{padding:70px 0 0 30px;}
+.on-line-text{margin-bottom:10px;}
+.on-line-text>span{float:left;width:75px;margin:14px 10px 0 0;text-align: right;}
+.on-line-text>input{float: left;width:193px;text-indent:10px;height:42px;border-radius: 5px; border:1px solid #c6cfe9;}
+.on-line-text>input:focus,.on-line-text textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}
+.on-line-text>i{float: left;margin:10px 0 0 10px;}
+.on-line-text textarea{float: left;width:80%;height:150px;padding:10px;border-radius: 5px; border:1px solid #c6cfe9;}
+.on-line-text>img{float:left;margin:5px 0 0 8px;}
+.line{margin:38px 0;width:80%;height:1px;border-bottom:1px dotted #ddd;}
+.teacher-photo{position:relative;float:left;display:inline-block;width:94px;height:94px;}
+.teacher-photo input{position:absolute;left:0;top:0;width:100%;height:100%;opacity:0;z-index:1}
+.on-line-type div{float: left;}
+.on-line-type label{position: relative; float: left;margin-right:20px;}
+.on-line-type input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.on-line-type i{margin-right:5px;font-size:26px;color: #7a8ce3;}
+.on-line-type i:after{content:'\e604';}
+.on-line-type input:checked+i:after{content: "\e64f";}
+.on-line-type>span{margin: 7px 15px 0 0;}
+.test-name label{position:relative;float:left;}
+.test-name label input{position:absolute;left:0px;top:0;opacity:0;width:100%;}
+.examination-mark{margin-top:15px;}
+.examination-mark span{float:left;margin-right:15px;line-height:26px;}
+.examination-mark a{float:left;display: block;width:40px;height:26px;margin:0 0 0 10px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 26px;text-align: center;}
+.examination-mark em{color:#7a8ce3;font-style:normal;}
+.examination-examine{display: block;width:215px;height:45px;margin:32px 0 0 115px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 45px;text-align: center;}
+.test-name a{float:left;display: block;width:85px;height:38px;margin:0 0 0 10px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 38px;text-align: center;}
+.warehouse-radio span{display: inline-block;vertical-align: top;line-height: 26px;}
+.on-line-tit input{width:80%;}

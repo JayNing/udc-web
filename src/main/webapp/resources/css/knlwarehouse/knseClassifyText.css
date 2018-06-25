@@ -1,0 +1,51 @@
+/*知识仓库-文本*/
+.warehouse-article-detail{margin: 30px auto 20px;}
+
+/*左侧列表*/
+.warehouse-nav{float: left;width:25%;padding-left:25px;background: #fff;}
+.warehouse-nav h3{padding:25px 0 25px 0;border-bottom:1px solid #eaeef6;font-size: 16px;color: #7a8ce3;}
+.warehouse-nav h3 span{display: inline-block;width:15px;height:15px;margin-right:8px;border-radius:2px;color:#7a8ce3;border:1px solid #7a8ce3;line-height: 13px;text-align: center;}
+
+.warehouse-list-wrap{padding: 25px 0 55px 0;}
+.warehouse-list{display:block;padding: 12px 36px 12px 25px;margin-bottom: 6px;}
+.selected:hover,.selected.hover{background: #7a8ce3;}
+.warehouse-list>.none{margin-top: 10px;}
+.warehouse-list span{float: left;color:#4c4c4c;}
+.selected:hover span,.selected.hover span{color: #fff;}
+.warehouse-list i{float: right;font-size: 22px;color: #d4dbef;}
+.selected:hover i,.selected.hover i{color: #fff;}
+.warehouse-list .icon-xiajiantou{color: #7a8ce3;}
+.warehouse-list-title{line-height:20px;cursor:pointer;}
+.warehouse-list  a{display: block;height:40px;text-align:center;line-height:40px;margin-bottom:5px;background: #f4f6fa;color:#4c4c4c; }
+.warehouse-list  a:hover,.warehouse-list  a.hover{background: #7a8ce3;color:#fff;}
+/*右侧*/
+.warehouse-content{float: right;width:74%;margin-left: 1%;padding-bottom:95px;background: #fff;}
+.warehouse-article{padding: 45px 70px 70px;}
+.article-top{line-height: 34px;}
+.article-top h3{float: left;color: #4c4c4c;font-size: 24px;}
+.article-top div{float: right;}
+.article-top div span{color: #b5b5b5;}
+.article-top i{color: #7a8ce3;}
+.article-top img{width:41px;margin-left: 20px;}
+.article-label{margin:3px 0 28px;}
+.article-label span{float: left;width:70px;height:30px;margin-right:5px;line-height: 30px;text-align: center;background: #f9fafc;border-radius: 5px;color: #7a8ce3;font-size: 12px;}
+.article-author{margin-bottom: 50px;}
+.article-author div{display: inline-block;vertical-align: middle;width: 30px;height:30px;margin:0 8px;}
+.article-author i{color: #7a8ce3;}
+.pdf-brief{margin-bottom:30px;color: #4c4c4c;}
+.warehouse-file{margin-bottom:80px;}
+.download{display:block;width:125px;height:42px;line-height: 42px;border-radius: 5px; text-align: center;background: #7a8ce3; color: #fff;}
+.communicate{margin-bottom: 35px;}
+.communicate div{margin-bottom: 25px;}
+.communicate h4{margin-bottom:10px;font-weight: 600;}
+.communicate p{line-height: 25px;}
+/*相关文章*/
+.article-about{margin-top:40px;border-top: 1px solid #ddd;}
+.article-about h4{font-size:16px;font-weight:600;color:#4c4c4c;padding-top:30px;margin-bottom: 20px;}
+.article-about-list{display:block;margin-bottom: 15px;}
+.article-about-list span{float: right;font-size: 16px;color: #b5b5b5;}
+.article-about-list>div{margin-bottom: 5px;}
+.article-about-list div div{float: left;color: #4c4c4c;}
+.article-about-list:hover div div{color: #7a8ce3;}
+.article-about-list i{float: left;width:5px;height:5px;margin:5px 18px 0 0;border-radius: 50%;background: #7a8ce3;}
+.article-about-list p{padding-left:23px;color: #bababa;}

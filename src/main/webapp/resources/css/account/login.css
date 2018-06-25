@@ -1,0 +1,18 @@
+
+html,body{height:100%;}
+.load{position:relative;height:100%;}
+.load-bg1{width:100%;height:40%;background:#90a0e7;}
+.load-bg2{width:100%;height:60%;background:#eaeef6;}
+.load-main{position:absolute;top:90px;left:50%;width:1200px;margin-left:-600px;}
+.load-bar{float:left;width:800px;height:500px;padding:157px 0 0 103px;background:url('../../images/app/load-bg.jpg') no-repeat center;background-size:cover;}
+.load-bar>img{margin-bottom:10px;}
+.load-bar p{color:#fff;font-size:20px;}
+.load-bar .load-welcome{margin-top:6px;font-size:26px;}
+.load-form{float:left;width:400px;height:500px;padding:70px 0 0 50px;background:#fff;}
+.load-form>div{margin-bottom:50px;font-size:26px;color:#4c4c4c;}
+.load-form>div span{color:#7a8ce3;}
+.load-module{margin-top:40px;}
+.load-module h4{margin-bottom:14px;color:#4c4c4c;font-size:16px;}
+.load-module input{width:305px;height:26px;padding-bottom:5px;border-bottom:1px solid #e0e1e5;;}
+.load-form a{display:block;margin-top:40px;width:305px;height:45px;line-height:45px;text-align:center;background:#7a8ce3;color:#fff;font-size:14px;}
+.load-module input::-webkit-input-placeholder{color:#c1c3cc;}

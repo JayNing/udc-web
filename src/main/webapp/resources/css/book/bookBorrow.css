@@ -1,0 +1,51 @@
+/*图书借阅*/
+.boardroom-left{width:21.666%;}
+.boardroom-main{background: #fff;}
+/*会议室预定*/
+.boardroom-head{width:100%;height:90px; padding:20px 0 0 30px;color:#fff;font-size:16px;background: url('../../images/app/boardroom-head.png') no-repeat center;background-size: cover;}
+.boardroom-head img{margin-right:10px;vertical-align: -5px;}
+.boardroom-list{padding:10px 0 10px 40px;}
+.boardroom-list a{position: relative; display: block;margin-bottom: 30px;}
+.boardroom-list h4{color: #4c4c4c;font-weight: 600;font-size: 0;}
+.boardroom-list h4 i{display: inline-block; vertical-align: 2px; width:6px;height:6px;background: #c6cfe9;margin-right:18px;border-radius: 50%;}
+.boardroom-list h4 span{font-size: 14px;}
+.boardroom-list p{padding:3px 0 0 24px;font-size: 12px;color: #afafaf;}
+/*其他*/
+.boardroom-other{margin-top:8px;padding:0 0 22px 32px; background: #fff;}
+.boardroom-other h3{line-height:65px;border-bottom:1px solid #eaeef6;font-size: 16px;color: #4c4c4c;font-weight: 600;}
+.boardroom-other a{display: block; padding-top:24px;color: #4c4c4c;}
+.boardroom-other a:hover{color:#7a8ce3;}
+.boardroom-other a img{vertical-align: -3px;width:23px;}
+.boardroom-other div img{vertical-align: -6px;}
+.boardroom-right .books-title img{width:33px;}
+.boardroom-right{width:77.5%;}
+.boardroom-right .books-title img{width:33px;vertical-align: -12px;}
+
+.message-notification{padding: 45px 55px 100px;}
+/*搜索框*/
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-weight:600;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-table{margin-top: 24px;}
+
+
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+
+
+
+.borrow-edit-main{padding: 48px 0 55px 90px;background: #fff;border-radius: 0 0 5px 5px;}
+.borrow-edit-list{margin-bottom: 20px;}
+.borrow-edit-list span{display: inline-block;vertical-align: middle;font-size: 14px;color: #7a8ce3;}
+.borrow-edit-list>input{vertical-align: middle;width:142px;height:40px;margin-right:5px;padding-left:18px;border:1px solid #c6cfe9;border-radius: 5px;}
+.borrow-edit-main a{display: block;width:85px;height:35px;margin:57px 0 0 75px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 35px;text-align: center;}
+.borrow-edit-list .borrow-class{color: #4c4c4c;}
+.borrow-edit-list>span:first-child{width:70px;text-align: right;}
+.boardroom-list a:hover h4 span{color:#7a8ce3;}
+.boardroom-list a img{position: absolute;left:95px;top:0;}.boardroom-list a img{position: absolute;left:95px;top:0;}

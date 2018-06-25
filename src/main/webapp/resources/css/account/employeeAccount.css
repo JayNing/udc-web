@@ -1,0 +1,137 @@
+/*账号管理-员工账号*/
+.message-notification{padding: 45px 55px 100px;}
+.notification-title{font-size:0;padding-bottom: 26px;border-bottom: 1px solid #eaeef6;}
+.notification-title img{margin-right:15px;}
+.notification-title>span{display:inline-block;vertical-align: middle;font-weight: 500; font-size:16px;}
+.notification-title>span a{color: #7a8ce3;}
+
+.account-tab a{float: left;width:120px;height:40px;border:1px solid #7a8ce3;color:#4c4c4c;line-height: 35px;margin-right:6px;text-align: center;border-radius: 5px;}
+.account-tab a.hover,.community-tab a:hover{background: #7a8ce3;color: #fff;}
+.account-tab{margin:28px 0 30px;}
+.account-tab img{margin-right:8px;}
+.account-tab span{display: inline-block;vertical-align: middle;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 60px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.account-search-time select{width:145px;height:33px;margin-right:0;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;background: url(../../images/app/select-icon.png) no-repeat 95% center;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+
+.add-account{padding: 40px 0 66px 58px;background: #fff;border-radius:0 0 5px 5px;}
+.add-account div{margin-bottom: 10px;}
+.add-account .role-main{margin-bottom: 0;}
+.add-account div>span{float: left;width:80px;margin-top:14px;}
+.role-main{position:relative;}
+.role-name{width:100%;height:100%;}
+.roleSelect{position:absolute;left:0;top:40px;width:100%;padding:10px;height:200px;overflow-y:auto;background:#fff;z-index:1000;border: 1px solid #c6cfe9;}
+.roleSelect label{position: relative; display: block;line-height:28px;}
+.roleSelect input{position:absolute;left:-9999px;top:0;opacity: 0;}
+.roleSelect i{color: #7a8ce3;font-size:20px;margin-right:6px;}
+.roleSelect span{display:inline-block;vertical-align: 3px;line-height: 20px; color: #4c4c4c;}
+.roleSelect i:after{content:'\e604';}
+.roleSelect input:checked+i:after{content: "\e64f";}
+.add-account>form>div>input{float: left;width:480px;height:40px;text-indent:10px;border:1px solid #c6cfe9;border-radius:5px;}
+.add-account div select,.role-main{float: left;width:190px;height:38px;line-height: 38px;border:1px solid #c6cfe9;border-radius:5px;background: url('../../images/app/select-icon.png') no-repeat 95% center;padding-left:5px;}
+.add-account a{display: block;width:217px;height:42px;line-height: 42px;text-align: center; background: #7a8ce3;border-radius: 5px;color: #fff;color: #fff; margin:35px 0 0 0;}
+
+.account-notice{padding: 26px 28px 40px;background: #fff;border-radius:0 0 5px 5px;}
+.account-notice textarea{width:100%;height:236px;padding:10px;border:1px solid #c6cfe9;border-radius: 5px;}
+.account-notice a{display: block;width:217px;height:42px;line-height: 40px;text-align: center; background: #7a8ce3;border-radius: 5px;color: #fff;color: #fff; margin:18px auto 0;}
+
+.account-notice-title{padding-bottom: 20px;}
+.account-notice-title:before,.account-notice-title:after,.account-notice-content:before,.account-notice-content:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.account-notice-title input{
+    display: block;
+    padding: 10px;
+    border: 1px solid #c6cfe9;
+    border-radius: 5px;
+    width: 584px;
+    float: left;
+}
+.account-notice label{
+    width: 60px;
+    font-size: 14px;
+    height: 41px;
+    line-height: 41px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    text-align: right;
+    position: relative;
+    float: left;
+}
+.account-notice-content textarea{
+    display: block;
+    border-radius: 5px;
+    width: 584px;
+    float: left;
+}
+
+.rule-jurisdiction{padding: 30px 0 0 60px;height: 450px;  overflow-y: auto;}
+.rule-jurisdiction h3{margin-bottom:25px;color: #4c4c4c;}
+.rule-list{margin-bottom: 15px;}
+
+.rule-jurisdiction ul{
+
+}
+.rule-jurisdiction ul li.checkedi>label>i:before{
+    content: "\e64f";
+}
+.rule-jurisdiction ul li>label>i:before{
+    content:'\e604';
+    color: #7a8ce3;
+    font-size:20px;
+    margin-right:6px;
+}
+.rule-jurisdiction ul li input:focus{
+    transition: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-more{
+    width: 15px;
+    height: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.rule-list1 li{
+    padding: 3px 0;
+    font-size: 0;
+}
+.rule-list1 span{
+    font-size: 14px;
+}
+.rule-list1 .rule-list2{
+    padding-left: 20px;
+}
+.rule-list1 .rule-list3{
+    padding-left: 20px;
+}
+.rule-list1 .rule-list4{
+    padding-left:20px;
+}
+.morehide{
+    visibility: hidden;
+}
+
+.rule-jurisdiction label{position: relative; display: inline-block;margin-right:10px;}
+
+.rule-jurisdiction span{display:inline-block;vertical-align: top;line-height: 20px; color: #4c4c4c;}
+.rule-jurisdiction input:checked+i:after{content: "\e64f";}
+.child-rule-list{margin:26px 0 26px;padding-left:30px;}
+.child-rule-list div{margin-bottom: 15px;}
+.rule-jurisdiction>a{display: block;width:217px;height:42px;margin-left:26px;border-radius:5px;line-height: 42px;text-align: center;background: #7a8ce3;color: #fff;}
+
+.books-page{margin-top:28px;text-align: center;}
+input:focus,textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}
+.bg1{position: absolute;left:0;top:0;width:100%;height:100%;opacity:0;z-index:10;}
+.role-name{overflow: hidden;}
+.books-search>input:focus{ border:0 !important;box-shadow:none !important;}

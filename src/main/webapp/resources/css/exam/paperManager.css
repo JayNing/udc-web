@@ -1,0 +1,30 @@
+/*考试培训-考卷管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+/*搜索框*/
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 60px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.test-model{border: 1px solid #c6cfe9;}
+.books-search-time select{margin-right:20px;color:#7a8ce3;padding-right:20px;background: url('../../images/app/select-icon.png') no-repeat 90% center;}
+.test-model .books-search-time input{width:75px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;}
+.test-model .books-search-time select{width:92px;height:32px;margin:0 5px 0 0;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;}
+.test-model .books-search-time span{margin: 0 6px;}
+.test-model .books-search-time a{margin-left:5px;}
+.test-model .books-search input{width:82px;}
+.test-model{border: 1px solid #c6cfe9;}
+.add-classification{display:block;margin:20px 0;width:165px;height:40px;line-height:40px;text-align:center;border:1px solid #c6cfe9;color:#4c4c4c;}
+.add-classification span{display:inline-block;width:18px;height:18px;vertical-align:-3px;line-height:44px;background:url('../../images/app/add.png') no-repeat center;background-size:cover;margin-right:18px;}
+.add-classification:hover span{background:url('../../images/app/add1.png') no-repeat center;background-size:cover;}
+.add-classification:hover{background:#7a8ce3;color:#fff;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}

@@ -1,0 +1,54 @@
+/*考试培训*/
+/*banner*/
+.banner{width:100%;height:420px;background: #7a8ce3;}
+.banner div{position:relative;height:100%;}
+.banner video{position: absolute;left:0;width:100%;top:20px;height:460px;}
+/*banner*/
+.train{margin: 68px auto 230px;}
+/*左侧样式类*/
+.train-left{float: left;width:74.58%;}
+.train-news{padding:45px 55px 30px;background: #fff;}
+.train-news a{display: block; margin-bottom:10px;font-size: 20px;font-weight:500;color: #4c4c4c;}
+.train-time{margin-bottom:22px;font-size: 16px;color: #7a8ce3;}
+.train-time img{width:20px;margin-right:8px;vertical-align: -4px;}
+.train-news p{line-height:1.5;font-size: 14px;color: #4c4c4c;}
+.lecturer{padding:28px 55px 22px;background: #fbfcfd;}
+.lecturer-img{width:150px;height:150px;float: left;}
+.lecturer-info{margin-left: 180px;padding-top: 20px;}
+.lecturer-info h3{margin-bottom:15px;font-size: 16px;color: #4c4c4c;}
+.lecturer-info h3 span{font-size: 16px;color: #7a8ce3;}
+.lecturer-info p{line-height:1.5;font-size: 14px;color: #4c4c4c;}
+.message{margin-top:10px;padding:45px 55px 55px;background: #fff;}
+.message-board h3{margin-bottom:16px;font-size: 16px;color: #4c4c4c;}
+.message-board h3 span{float:right;color: #bababa;font-size: 14px;}
+.message-board textarea{width:100%;height:60px;border:1px solid #7a8ce3;border-radius:5px;padding:15px 30px;}
+.expression{margin-top: 5px;}
+.expression div{float: left;color: #7a8ce3;cursor: pointer;}
+.expression div img{width: 20px;margin-right: 5px;}
+.expression a{float: right;width:85px;height:35px;text-align: center;line-height: 35px;border-radius: 5px;background: #7a8ce3;color: #fff;font-size:14px;}
+.message-content{margin-top:40px;padding-bottom: 65px;}
+.message-content h3{padding-bottom:18px;border-bottom:1px solid #eaeef6;font-size: 14px;color: #4c4c4c;}
+.message-content h3 span{color: #7a8ce3;}
+.message-list{padding:20px 0;border-bottom:1px solid #eaeef6;}
+.message-list-main{}
+.message-img{width:30px;height:30px;float:left;}
+.message-detail{position: relative; margin-left:42px;}
+.message-detail>div:first-child{margin-bottom:8px;color:#7a8ce3;font-size: 14px;}
+.message-detail>div:first-child span{margin-left:10px;color: #c9c9c9;font-size: 12px;}
+.message-detail p{margin-top:10px;font-size: 14px;color: #4c4c4c;}
+.page{font-size: 0;}
+.message-content .page{margin:30px 0 0 42px;}
+.online-personnel{margin-bottom:10px;padding:28px 0 44px 30px;background: #fff;}
+.online-personnel h3{padding-bottom:15px;font-weight:600;border-bottom:1px solid #eaeef6;font-size: 16px;color: #4c4c4c;}
+/*右侧样式类*/
+.train-right{float: right;width:25%;}
+.office{margin-top: 10px;}
+.office-list{margin-top:30px;}
+.office-user{display:inline-block;vertical-align: middle; width:40px;height:40px;margin-right:10px;}
+.office-info{display:inline-block;vertical-align: middle;}
+.office-info h4{white-space:nowrap;overflow:hidden;text-overflow: ellipsis; margin-bottom:5px;color: #8f8f8f;}
+.office-info div{color: #7a8ce3;}
+.training-case{margin-top: 20px;}
+.training-case a{color: #4c4c4c;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
+.training-case a:hover{color: #7a8ce3;}
+.training-case p{margin-top:6px;color: #bfbfbf;font-size: 12px;}

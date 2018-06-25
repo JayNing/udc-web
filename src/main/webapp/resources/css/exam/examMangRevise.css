@@ -1,0 +1,62 @@
+/*考试培训-考试管理-批卷*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.check-title{padding-bottom:25px;border-bottom:1px solid #eaeef6;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.check-table{margin-top:38px;}
+.check-table>h3{margin-bottom:9px;text-align:center;font-size:20px;color:#7a8ce3;}
+.check-table>h4{margin-bottom:26px;text-align:center;color:#ec0100;font-size:16px;}
+.books-page{margin-top:28px;text-align: center;}
+.assessment,.check,.statistic a{display: inline-block;padding: 8px 10px;color: #4c4c4c; border-radius: 5px;cursor:pointer;}
+.check.hover{background:#ec0100;color:#fff;}
+
+/*批卷弹框*/
+.bg{position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 100000;background: rgba(0,0,0,0.4);overflow-x: hidden;overflow: auto;}
+.data-test-paper{position: relative;width: 700px;left:inherit;top: inherit !important;right: inherit !important;margin: 30 auto; transform:none !important;-webkit-transform:none !important;-ms-transform:none !important;-o-transform:none !important;}
+.test-paper-pop{padding: 47px 0 0 0;background: #fff;border-radius: 0 0 5px 5px;}
+.test-paper-pop h2{text-align: center;color: #7a8ce3;font-size:20px;font-weight: 600;}
+.test-paper-pop .test-paper-modular{padding: 28px 0 0 110px;}
+.test-paper-pop{padding: 47px 0 0 0;background: #fff;border-radius: 0 0 5px 5px;}
+.test-paper-pop h2{text-align: center;color: #7a8ce3;font-size:20px;font-weight: 600;}
+.test-paper-pop .test-paper-modular{border-bottom:0;}
+.test-paper-modular h3{font-size: 16px;color: #7a8ce3;}
+.test-paper-modular>div{margin-top:30px;}
+.problem-list{margin-bottom: 35px;}
+.problem-subject{color: #4c4c4c;}
+.problem-subject em{display: inline-block;margin-right:22px;width:35px;padding: 4px 0;color:#fff; background: #7a8ce3;border-radius: 4px;text-align: center;}
+.problem-subject span{font-weight: 600;color: #4c4c4c;}
+.problem-list .problem-subject>img,.problem-list img{margin-left:5px;vertical-align: -2px;}
+.problem-subject span span{color: #7a8ce3;font-weight: 400;}
+.problem-subject i{display: inline-block;width:20px;height:20px;line-height:17px;text-align: center; margin-left:8px;border-radius: 50%;background: #ed2624;color: #fff;}
+.problem-option{margin-top:12px;padding-left:57px;}
+.problem-option>div{margin-bottom: 8px;}
+.problem-option>div span{margin-right:36px;color: #4c4c4c;}
+.problem-option>div span em{font-weight: 600;}
+.test-paper-modular .add-problem{display: block;width:85px;height:35px;margin:50px 0 40px 57px;text-align: center;line-height: 35px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.problem-option label{position: relative;margin-right:13px;}
+.problem-option input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.problem-option i{font-size:16px;color: #7a8ce3;}
+.problem-option i:after{content:'\e764';}
+.problem-option input:checked+i:after{content: "\e75b";}
+.problem-judge{margin-top:18px;}
+.problem-qa{margin-bottom: 20px;}
+.test-paper-footer{padding: 22px 30px;background: #eaeef6;}
+.test-paper-footer a{display: block;width:105px;height:35px;text-align: center;line-height: 35px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.test-submit{display: block;width:218px;height:42px;margin:42px auto 0; text-align: center;line-height: 42px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.problem-add{padding:32px 0 50px 45px ;background: #fff;border-radius: 0 0 5px 5px;}
+
+.problem-add div{margin-bottom:10px;font-size: 0;}
+.problem-add div span{display: inline-block;vertical-align: middle;width:80px;margin-right:10px;text-align:right;font-size: 14px;color: #4c4c4c;}
+.problem-add div>input,.problem-add div>select{vertical-align: middle;width:190px;height:40px;padding-left:18px;border:1px solid #c6cfe9;border-radius: 5px;}
+.problem-add div input:focus{border:1px solid #7a8ce3;}
+.problem-add .problem-submit{display: block;width:102px;height:40px;margin:22px 0 0 90px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 40px;text-align: center;}
+.problem-add select{background: url('../../images/app/select-icon.png') no-repeat 95% center;color:#4c4c4c;line-height: 42px;border:1px solid #c6cfe9;border-radius: 5px;padding-left:24px;}
+.reference-answer{margin:18px 0 0 57px;}
+.reference-answer div{float: left;}
+.reference-answer div p{color: #4c4c4c;margin-bottom: 10px;}
+.score{margin:18px 0 0 57px;width:183px;padding-bottom:5px;border-bottom:1px solid #ec0100;}
+.score span{color: #ec0100;}
+.score input{width:130px;text-indent: 20px;}
+.pop-paper-footer{padding: 22px 0;text-align: center; background: #eaeef6;}
+.pop-paper-footer a{display: inline-block;width:215px;height:40px;text-align: center;line-height: 40px;background: #7a8ce3;color: #fff;border-radius: 5px;}

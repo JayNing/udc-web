@@ -1,0 +1,33 @@
+/*社区管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+.community-tab{margin:28px 0 -14px;}
+.community-tab a{float: left;width:160px;height:40px;border:1px solid #7a8ce3;color:#4c4c4c;line-height: 40px;margin-right:6px;text-align: center;border-radius: 5px;}
+.community-tab a.hover,.community-tab a:hover{background: #7a8ce3;color: #fff;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-weight:600;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-search-time select{margin-right:20px;color:#7a8ce3;padding-right:20px;background: url('../../images/app/select-icon.png') no-repeat 90% center;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+.community-table tbody td:first-child{text-align: left;padding-left: 28px;}
+.community-table thead td:first-child{text-align: left;padding-left: 28px;}
+.account-notice{padding: 26px 28px 40px;background: #fff;border-radius:0 0 5px 5px;}
+.account-notice textarea{width:100%;height:236px;padding:10px;border:1px solid #c6cfe9;border-radius: 5px;}
+.account-notice a{display: block;width:217px;height:42px;line-height: 42px;text-align: center; background: #7a8ce3;border-radius: 5px;color: #fff;color: #fff; margin:18px auto 0;}
+
+.community-tab .notice{float: right;width:160px;height:40px;margin-right:0;border:1px solid #7a8ce3;color:#4c4c4c;line-height: 40px;text-align: center;border-radius: 5px;}
+.community-tab .notice:hover{background: #fff;color: #4c4c4c;}
+.community-tab .notice img{margin-right:8px;}
+.community-tab .notice span{display: inline-block;vertical-align: middle;}
+
+

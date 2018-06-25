@@ -1,0 +1,41 @@
+/*知识仓库-分类 */
+/*搜索框*/
+.warehouse{margin:30px auto 197px;}
+.warehouse-nav{float: left;width:25%;padding-left:25px;background: #fff;}
+.warehouse-nav h3{padding:25px 0 25px 0;border-bottom:1px solid #eaeef6;font-size: 16px;color: #7a8ce3;}
+.warehouse-nav h3 span{display: inline-block;width:15px;height:15px;margin-right:8px;border-radius:2px;color:#7a8ce3;border:1px solid #7a8ce3;line-height: 13px;text-align: center;}
+.warehouse-search{position: relative; float: left;width:30%;padding-left:30px;}
+.warehouse-search i{float:left;margin-right:10px;font-size: 30px;color: #7a8ce3;}
+.warehouse-search input{float:left;line-height: 66px;font-size: 16px;}
+.warehouse-time{float: right;margin-right: 30px;}
+.warehouse-time input{width:85px;color: #7a8ce3;text-align: right;font-size:14px;}
+.warehouse-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.warehouse-time .end-time{text-align: left;font-size:14px;}
+.warehouse-time span{margin:0 30px;font-size:14px;}
+.warehouse-time a{display:inline-block;margin-left:60px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+/*仓库类别*/
+.process{width:100%;height:52px;background: #4c4c4c;}
+.process a{float: left;width:84%;height:100%;text-align:center;color: #d3d3d3;}
+.process a.hover{background: #7a8ce3;color: #fff;}
+.process p{position:relative;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);width:60%;margin:0 auto;line-height:1.3;text-align:center;}
+.classifyNode{width:25%;}
+.classifyNode div{float:left;width:16%;height:100%;color:#7a8ce3;line-height: 52px; text-align: center;}
+.classifyNode{float:left;}
+.warehouse-content{float: right;width:74%;margin-left: 1%;padding-bottom:95px;background: #fff;}
+.search-head{height:66px;line-height: 66px;}
+
+.news{padding: 66px 0 20px;margin:0 70px;border-bottom: 1px solid #ddd;}
+.news a{display:block;margin-bottom: 20px;color: #3c3c3c;}
+.news a:hover{color:#7a8ce3;}
+.news-title{float:left;}
+/*新闻列表*/
+.news-title div{display:inline-block;margin-left:10px;width:62px;height:20px;line-height: 20px;text-align: center;border-radius: 3px;background: #eef1f8;color: #7a8ce3;font-size: 12px;}
+.news-title div.hover{background: #65b762; color:#fff}
+.news-title span{display:inline-block;width:6px;height:6px;margin-right:15px; border-radius:100%;background: #7a8ce3;}
+.news-list img{margin-left: 10px;}
+.news-time{float: right;}
+.news-time>span{float: left;margin-left:28px;color: #b5b5b5;}
+.news-time div{float: left;color: #b5b5b5;}
+.news-time div span{color: #7a8ce3;}
+.notification-page{margin:68px 0 0 45px;}
+.warehouse-classification-title{line-height:20px;cursor:pointer;}

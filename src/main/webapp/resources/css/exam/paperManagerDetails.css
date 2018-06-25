@@ -1,0 +1,39 @@
+/*考试培训-考试管理-详情*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.test-paper-examination{margin-top:25px;border:1px dashed #c6cfe9;}
+.test-paper-content{padding:32px 0;text-align: center; border-bottom: 1px dashed #c6cfe9;}
+.test-paper-content h3{color: #7a8ce3;font-size: 20px;font-weight: 600;}
+.test-paper-content p{margin-top:8px;text-align: center;color: #4c4c4c;}
+.test-paper-modular{padding: 28px 0 0 30px;border-bottom: 1px dashed #c6cfe9;}
+.test-paper-modular h3{font-size: 16px;color: #7a8ce3;}
+.test-paper-modular h3 a{display: inline-block;padding: 5px 8px;border-radius: 5px; font-size:14px;background: #eaeef6;color: #4c4c4c;}
+.test-paper-modular>div{margin-top:30px;}
+.problem-list{margin-bottom: 35px;}
+.problem-subject{color: #4c4c4c;}
+.problem-subject em{display: inline-block;margin-right:22px;width:35px;padding: 4px 0;color:#fff; background: #7a8ce3;border-radius: 4px;text-align: center;}
+.problem-subject span{font-weight: 600;color: #4c4c4c;}
+.problem-subject span span{color: #7a8ce3;font-weight: 400;}
+.problem-subject i{display: inline-block;width:20px;height:20px;line-height:17px;text-align: center; margin-left:8px;border-radius: 50%;background: #ed2624;color: #fff;}
+.problem-option{margin-top:12px;padding-left:57px;}
+.problem-option>div{margin-bottom: 8px;}
+.problem-option>div span{margin-right:36px;color: #4c4c4c;}
+.problem-option>div span em{font-weight: 600;}
+.test-paper-modular .add-problem{display: block;width:85px;height:35px;margin:50px 0 40px 57px;text-align: center;line-height: 35px;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.problem-option label{position: relative;margin-right:13px;}
+.problem-option input{position: absolute;left:-99999px;top:0;opacity: 0;}
+.problem-option i{font-size:16px;color: #7a8ce3;}
+.problem-option i:after{content:'\e764';}
+.problem-option input:checked+i:after{content: "\e75b";}
+.correct-rate{margin-top:20px;}
+.correct-rate a{float: left;width:70px;height:30px;text-align: center;line-height: 30px;background: #7a8ce3;color:#fff;}
+.correct-rate a:first-child{background: #65b762;}
+.correct-rate a:last-child{background: #c6cfe9;}
+.reference-answer{margin:18px 0 0 57px;}
+.reference-answer span{float: left;width:70px;margin-right:20px;background: #65b762; color:#fff;text-align:center;height:32px;line-height: 32px;}
+.reference-answer div{float: left;}
+.reference-answer div p{color: #4c4c4c;margin-bottom: 10px;}
+.evaluation{padding: 25px 0 40px 35px;background: #eaeef6;}
+.evaluation h4{margin-bottom:15px;font-size: 16px;color: #7a8ce3;}
+.evaluation p{line-height: 1.5;color: #4c4c4c;text-indent: 25px;}

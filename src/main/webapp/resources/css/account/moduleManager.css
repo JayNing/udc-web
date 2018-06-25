@@ -1,0 +1,25 @@
+/*分类管理-知识仓库文章类型*/
+.message-notification{padding: 45px 27px 100px 55px;}
+.community-table tbody td:first-child{text-align: left;padding-left: 28px;}
+.community-table thead td:first-child{text-align: left;padding-left: 28px;}
+.community-table tbody td.two-level{padding-left:54px;}
+.community-table tbody td.three-level{padding-left:89px;}
+.classification-table span{margin-right:6px;font-size:22px;color:#cad2ea;}
+.classification-table span.dropDown{display:inline-block;width:17px;cursor:pointer;}
+
+.notification-title{font-size:0;padding-bottom: 26px;border-bottom: 1px solid #eaeef6;}
+.notification-title img{margin-right:15px;}
+.notification-title>span{display:inline-block;vertical-align: middle;font-weight: 500; font-size:16px;}
+.notification-title>span a{color: #7a8ce3;}
+.account-tab a{float: left;width:120px;height:40px;border:1px solid #7a8ce3;color:#4c4c4c;line-height: 35px;margin-right:6px;text-align: center;border-radius: 5px;}
+.account-tab a.hover,.community-tab a:hover{background: #7a8ce3;color: #fff;}
+.account-tab{margin:28px 0 30px;}
+.account-tab img{margin-right:8px;}
+.account-tab span{display: inline-block;vertical-align: middle;}
+.add-account { padding: 40px 0 66px 58px;  background: #fff; }
+.add-account div>span {  float: left;  width: 80px;  margin-top: 14px;  }
+.add-account div>input {  float: left;  width: 480px;  height: 40px;  text-indent: 10px;  border: 1px solid #c6cfe9;  border-radius: 5px;  }
+.add-account div>div{float: left;  width: 480px;  height: 40px; line-height:40px; text-indent: 10px;}
+.add-account a {  display: block;  width: 217px;  height: 42px;  line-height: 42px;  text-align: center;  background: #7a8ce3;  border-radius: 5px;  color: #fff;  margin: 35px 0 0 80px;  }
+.add-account div {  margin-bottom: 10px;  }
+input:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}

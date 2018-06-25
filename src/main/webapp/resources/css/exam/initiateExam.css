@@ -1,0 +1,62 @@
+/*考试培训-发起考试*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+.check-title{padding-bottom:25px;border-bottom:1px solid #eaeef6;}
+.examination-form{padding:40px 0 0 35px;}
+.examination-text{margin: 15px 0 15px;}
+.examination-text>span{float:left;width:75px;margin:0 10px 0 0;color:#4c4c4c;line-height:38px;text-align: right;}
+.examination-text>input{float: left;width:280px;text-indent:10px;height:38px;border-radius: 5px; border:1px solid #c6cfe9;}
+.examination-text>input:focus,.warehouse-text textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}
+.examination-text>img{float:left;margin:5px 0 0 8px;}
+.examination-text>i{float: left;margin:10px 0 0 10px;}
+.examination-text select{float: left;width:210px;height:38px;padding-left:10px;border-radius: 5px; border:1px solid #c6cfe9;background: url('../../images/app/select-icon.png') no-repeat 95% center;}
+.examination-mark{}
+.examination-mark span{float:left;}
+.examination-mark a{float:left;}
+.test-time input{width:140px;}
+.test-name input{width:395px;}
+.test-name a{float:left;display: block;width:85px;height:38px;margin:0 0 0 10px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 38px;text-align: center;}
+.examination-mark{margin-top:15px;}
+.examination-mark span{float:left;margin-right:15px;line-height:26px;}
+.examination-mark a{float:left;display: block;width:40px;height:26px;margin:0 0 0 10px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 26px;text-align: center;}
+.generate{display: block;width:215px;height:45px;margin-top:32px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 45px;text-align: center;}
+
+/*试卷选择弹框*/
+.test-selection{background: #eaeef6;border-radius: 0 0 5px 5px;}
+.test-data{padding: 6px 25px;background: #eaeef6;}
+.test-data input,.test-data select{float: left;height:36px;padding-left:5px;margin-right:5px;border:1px solid #c6cfe9;border-radius: 5px;}
+.test-data input{width:23%;}
+.test-data select{width:12%;background: #fff url('../../images/app/select-icon.png') no-repeat 95% center;}
+.test-data a{float: left;width:14.76%;height:36px;line-height: 36px;text-align: center;background: #7a8ce3;color: #fff;border-radius: 5px;}
+.test-paper{padding: 38px 0 30px 46px;background: #fff;}
+.test-paper-list{margin-bottom: 20px;}
+.test-paper-list label{display: block;}
+.test-paper-list div{position: relative; float: left;margin-right:13px;}
+.test-paper-list input{vertical-align:middle;}
+.test-paper-list i{font-size:16px;color: #7a8ce3;}
+.test-paper-list i:after{content: '\e764';}
+.test-paper-list input:checked+i:after{content: "\e75b";}
+.test-paper-list span{float: left;margin:1px 5px 0 0;color: #4c4c4c;}
+.test-paper-submit{text-align: center;padding: 20px 0 25px 46px;background:#eaeef6;}
+.test-paper-submit a{display: inline-block;width:218px;height:42px;line-height: 42px;text-align: center;background: #7a8ce3;color:#fff;border-radius: 5px;}
+.test-paper-name{width:30%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+.additions{padding: 36px 40px 50px;background: #fff;border-radius: 0 0 5px 5px;}
+.addtions-content{border:1px solid #7a8ce3;border-radius:5px;}
+.additions-left{width:50%;min-height:240px;float:left;border-right:1px solid #7a8ce3;padding:30px 0 20px 36px;overflow-y:auto;}
+.additions-list{margin-bottom:20px;}
+.additions-top{cursor:pointer;}
+.additions-top img{margin-right:10px;}
+.additions-top a{display:inline-block;vertical-align:middle;color:#4c4c4c;}
+.additions-user{margin-top:12px;padding-left:38px;}
+.additions-user a{display:block;width:65px;height:25px;line-height:25px;text-align:center;background:#eaeef6;border-radius:5px;color:#4c4c4c;margin-bottom:5px;}
+.additions-user a.hover{background:#7a8ce3;color:#fff;}
+.additions-right{width:50%;min-height:240px;float:right;height:237px;padding:30px 0 36px 36px;overflow-y:auto;}
+.additions-right>a{display:block;margin-bottom:12px;color:#7a8ce3;}
+.additions-btn{display: block;width:218px;height:42px;margin:26px auto 0;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 42px;text-align: center;}
+#start-time{width:15%;}
+#end-time{width:15%;}
+.test-data span{float: left;margin: 10px 5px 0 0;}
+.test-paper-list span.dep1,.test-paper-list span.dep2{width:60px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}

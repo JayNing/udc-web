@@ -1,0 +1,18 @@
+/*
+*我的考试css
+*/
+.message-notification{padding: 45px 55px 100px;}
+.ownExamPaperName{width:40%;color:#7a8ce3;border-radius:5px;border:1px solid #c6cfe9;display:inline-block;height:32px;padding:9px 20px;text-align:center;}
+.ownExam-text{margin-bottom:20px;}
+.ownExam-text>input{width:105px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;font-weight:600;color:#7a8ce3;font-size:14px;}
+.ownExam-text>input::-webkit-input-placeholder{color:#7a8ce3;}
+.ownExam-text a{display:inline-block;float:right;width:85px;height:33px;background:#7a8ce3;color:#fff;border-radius:5px; text-align:center;line-height:33px;font-size:14px;}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;word-wrap:break-word;word-break:break-all;}
+.ownExam-form table{width:100%;}
+.ownExam-list table{font-size:14px;}
+.ownExam-list table tr{text-align:center;min-height:40px;}
+.ownExam-list thead tr td{height:40px;background:#eaeef6;color:#7a8ce3;border:1px solid #c6cfe9;}
+.ownExam-list tbody tr td{border:1px solid #c6cfe9;}
+.ownExam-list thead tr td:nth-child(2n+1){background:#f4f6fa;}
+.ownExam-start-btn a{background:#7a8ce3;color:#fff;border-radius:5px;padding:5px 10px;text-align:center;font-size:14px;}
+.ownExam-details-btn a{border:1px solid #c6cfe9;padding:5px 10px;border-radius:5px; text-align:center;font-size:14px;}

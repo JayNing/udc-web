@@ -1,0 +1,48 @@
+/*会议室预约主页css*/
+.boardroom-left{width:21.666%;}
+.boardroom-main{background: #fff;}
+.boardroom-head{width:100%;height:90px; padding:20px 0 0 30px;color:#fff;font-size:16px;background: url('../../images/app/boardroom-head.png') no-repeat center;background-size: cover;}
+.boardroom-head img{margin-right:10px;vertical-align: -5px;}
+.boardroom-list{padding:10px 0 10px 40px;}
+.boardroom-list a{position: relative; display: block;margin-bottom: 30px;}
+.boardroom-list h4{color: #4c4c4c;font-weight: 600;font-size: 0;}
+.boardroom-list h4 i{display: inline-block; vertical-align: 2px; width:6px;height:6px;background: #c6cfe9;margin-right:18px;border-radius: 50%;}
+.boardroom-list h4 span{font-size: 14px;}
+.boardroom-list p{padding:3px 0 0 24px;font-size: 12px;color: #afafaf;}
+.boardroom-other{margin-top:8px;padding:0 0 22px 32px; background: #fff;}
+.boardroom-other h3{line-height:65px;border-bottom:1px solid #eaeef6;font-size: 16px;color: #4c4c4c;font-weight: 600;}
+.boardroom-other a{display: block; padding-top:24px;color: #4c4c4c;}
+.boardroom-other div img{vertical-align: -6px;}
+.boardroom-list a img{position: absolute;left:95px;top:0;}
+
+
+.meeting-modular{padding: 0;}
+.meeting-search{ padding:0 50px;height:66px;line-height: 66px; border-bottom: 2px solid #7a8ce3;}
+.meeting-search>div{float: left;}
+.meeting-search>div i{color: #7a8ce3;font-size: 30px;}
+.meeting-search>i{float: right;color: #7a8ce3;font-size: 40px;}
+.meeting-reserve{padding: 25px 50px 65px;}
+.meeting-reserve>h3{margin-bottom:32px;color: #4c4c4c;font-size: 18px;font-weight: 600;}
+.reserve-time{float: left;}
+.reserve{text-align: center;}
+.reserve-time a{float: left;width:26px;height:26px;line-height:26px;color:#fff;background: #c6cfe9;}
+.reserve-time a:last-child{background: #7a8ce3;}
+.reserve-date{display: inline-block;}
+.reserve-date i{color: #4c4c4c;}
+.reserve-table{margin-top:32px;}
+.reserve-table>div:first-child{width:100%;height:40px;line-height:40px;text-align:center;color:#7a8ce3;border:1px solid #7a8ce3;border-bottom:0;}
+.reserve-table table{width:100%;}
+.reserve-table table td{height:40px;border:1px solid #7a8ce3;text-align:center;}
+.reserve-table tr td:last-child{background:#eaeef7;}
+.reserve-table td>div{width:100%;height:20px;}
+.reserve-table td>div:first-child{border-bottom:1px solid #7a8ce3;;}
+.meeting-time{position:absolute;right:3%;left:27%;top:34.375%;height:60px;background:#fff;text-align:center;}
+.meeting-time p{margin-top:5px;text-align:center;color:#7a8ce3;}
+.meeting-time div{color:#4c4c4c;}
+.meeting-time>div{position:relative;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);}
+.reserve-table-main{position:relative;width:100%;}
+.boardroom-other a:hover{color:#7a8ce3;}
+.boardroom-other a img{vertical-align: -3px;width:23px;}
+.boardroom-list a:hover h4 span{color:#7a8ce3;}
+.boardroom-right .books-title img{width:33px;vertical-align: -12px;}
+.boardroom-list a:hover h4 span{color:#7a8ce3;}

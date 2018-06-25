@@ -1,0 +1,36 @@
+/*外部专家*/
+.expert{padding: 20px 0 45px;}
+.expert-list{position: relative; padding:60px 72px 48px 45px;font-size:0;margin-bottom:10px;overflow:hidden; border-radius: 5px;background: #fff;}
+.expert-list>img{position: absolute;left:-190px;top:-190px;width:380px;}
+.expert-photo{position:relative;z-index:100;float:left;width:220px;height:220px;border-radius:50%;margin-top: 40px;background-position: center;background-repeat:no-repeat;background-size:cover;}
+.expert-info{margin-left:270px;font-size:14px;}
+.expert-info>div{margin-bottom:5px;line-height:20px;overflow: hidden;}
+.expert-info div span{float: left;color: #7a8ce3;font-size:16px;}
+.expert-info div div{float: right;color: #7a8ce3;}
+.expert-info div img{width:20px;margin-top: -6px;margin-right:4px;}
+.expert-info h5{font-weight:600;font-size:14px;color: #4c4c4c;}
+.expert-info p{color: #4c4c4c}
+.expert-info img{cursor: pointer}
+
+.expert-info img:hover{
+    transform:scale(1.2);
+}
+.honor{margin-bottom: 8px;font-size:14px;}
+.honor span{display: inline-block;vertical-align:middle;width:5px;height:5px;margin-right:10px;border-radius: 50%;background: #7a8ce3;}
+.brief{margin-top:13px;text-indent:30px;line-height: 23px;}
+.expert-info  .user-honor{margin:18px 0 18px;font-size: 16px;}
+.expert-info>a{display: block;width:176px;height:45px;margin-top:28px;line-height: 45px;text-align: center;background: #7a8ce3;font-size: 16px;color: #fff;border-radius: 5px;}
+.expert-info>a:hover{border:1px solid #7a8ce3;color:#7a8ce3;background:#fff;}
+.page{margin-top:40px;text-align:center;}
+.page a{background: #fff;}
+.consultation{width:44%;position:relative;top:50%;margin: -242.5px auto 0;background: #fff;border-radius:5px;}
+.consultation-top{width:100%;height:50px;line-height:50px;border-radius:5px 5px 0 0;background: #7a8ce3; padding: 0 0 0 20px;}
+.consultation-top div{float: left; color: #fff;font-size: 16px;}
+.consultation-top div img{width:32px;margin-right:10px;}
+.consultation-top>span{float: right;width:50px;cursor:pointer;text-align: center;color: #fff;}
+.consultation-main{position: relative;padding-bottom:25px;}
+.consultation-main textarea{width:100%;height:373px;padding: 10px;}
+.consultation-main div{padding-right:30px;text-align: right;}
+.consultation-main span{color: #858585;}
+.consultation-main a{display: inline-block;vertical-align:middle;width:85px;height:35px;text-align:center;background: #7a8ce3; color:#fff;border-radius:5px;line-height: 35px;margin-left:22px;}
+.consultation-main a{line-height: 23px;}

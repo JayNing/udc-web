@@ -1,0 +1,40 @@
+/*考试培训-考试管理 */
+.message-notification{padding: 45px 55px 100px;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-weight:600;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.search-model .examinationt-time input{width:85px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;}
+.examinationt-time span{margin:0 16px;}
+.search-model .examinationt-time input{width:85px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;}
+.examinationt-time select{width:115px;height:33px;margin-left:5px;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;}
+.books-search-time select{margin-right:20px;color:#7a8ce3;padding-right:20px;background: url('../../images/app/select-icon.png') no-repeat 90% center;}
+.assessment.hover{background:#65b762;color:#fff;}
+.assessment,.check,.statistic a{display: inline-block;padding: 8px 10px;color: #4c4c4c; border-radius: 5px;cursor:pointer;}
+.check.hover{background:#ec0100;color:#fff;}
+.statistic a.hover{color:#fff;}
+.statistic a:nth-child(2){margin:0 3px;color:#65b762;}
+.statistic a:first-child.hover{background: #7a8ce3;}
+.statistic a:nth-child(2).hover{background: #65b762;color:#fff;}
+.statistic a:nth-child(3).hover{background: #8f9de7;}
+/*评估弹框*/
+.test-edit-main{padding: 26px 30px 46px;background: #fff;border-radius: 0 0 5px 5px;}
+.test-edit-main a{display: block;width:215px;height:42px;margin:27px auto 0;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 42px;text-align: center;}
+.test-edit-main textarea{width:100%;height:242px;padding:15px;border:1px solid #c6cfe9;background:#f4f6fa;border-radius:10px;}
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+/*专家管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+.add-expert{width:100%;height:60px;line-height:60px;border: 1px solid #c6cfe9;font-weight:600;font-size:16px;border-radius: 5px 5px 0 0;border-bottom: 0;text-align:center;}
+.add-expert img{margin-right:14px;vertical-align:-3px;}
+.add-expert a{color:#5a5a5a;}
+.community-table tbody td:first-child{text-align: left;padding-left: 28px;}
+.community-table thead td:first-child{text-align: left;padding-left: 28px;}
+.books-btn a:first-child{margin-right:3px;color:#7a8ce3;}
+.books-btn a.hover{background: #7a8ce3;color: #fff;}
+.books-btn a:last-child{border:1px solid transparent;}
+.books-btn a:last-child:hover{
+    border-color: #7a8ce3;
+    color:#7a8ce3;
+    background-color: #fff;
+}
+.books-btn a:first-child.hover{background: #65b762;border:1px solid transparent;}
+.books-btn a:first-child.hover:hover{
+    background-color: #fff;
+    border-color:#65b762;
+    color:#65b762;
+}
+.expert-page{margin-top: 40px;text-align: center;}
+.expert-message div{display:inline-block;width:30px;height:30px;margin:0 14px;vertical-align:middle;border-radius:50%;color:#4c4c4c;background-position: center;background-repeat:no-repeat;background-size:cover;}
+.expert-message:hover{color:#7a8ce3;}
+.books-page{margin-top:28px;text-align: center;}

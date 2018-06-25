@@ -1,0 +1,41 @@
+/*知识仓库管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title{font-size:0;}
+.books-title img{margin-right:8px;width:20px;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+/*知识仓库管理*/
+.warehouse-select{margin-top: 26px;}
+.warehouse-select select{float: left;width:213px;height:40px;background: url('../../images/app/select-icon.png') no-repeat 95% center; padding-left:20px;margin-right:10px;border:1px solid #c6cfe9; }
+.warehouse-select div{float: left;width:292px;height:40px;color:#fff;background: #7a8ce3;line-height: 40px;text-align: center;}
+.warehouse-select div span{display: inline-block;;width:20px;height:20px;line-height: 20px;margin-right:15px; border:1px solid #fff;color: #fff;}
+.warehouse-select div a{color:#fff;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-table{margin-top: 24px;}
+.books-name{display:inline-block;color: #4c4c4c;    max-height: 38px;
+    overflow: hidden;}
+.books-name:hover{color: #7a8ce3;}
+.books-author{display: inline-block;padding: 0 20px;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+.warehouse-table tbody td:first-child{text-align: left;padding-left: 28px;}
+.warehouse-table thead td:first-child{text-align: left;padding-left: 28px;}
+.books-name img{margin-left:10px;}
+.sqcd{display: inline-block;
+    margin-left: 10px;
+    width: 62px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #65b762;
+    color: #fff;
+    font-size: 12px;}

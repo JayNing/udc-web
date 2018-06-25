@@ -1,0 +1,47 @@
+/*资源管理搜索结果css*/
+.boardroom-left{width:21.666%;}
+.boardroom-main{background: #fff;}
+.boardroom-head{width:100%;height:90px; padding:20px 0 0 30px;color:#fff;font-size:16px;background: url('../../images/app/boardroom-head.png') no-repeat center;background-size: cover;}
+.boardroom-head img{margin-right:10px;vertical-align: -5px;}
+.boardroom-list{padding:10px 0 10px 40px;}
+.boardroom-list a{position: relative; display: block;margin-bottom: 30px;}
+.boardroom-list h4{color: #4c4c4c;font-weight: 600;font-size: 0;}
+.boardroom-list h4 i{display: inline-block; vertical-align: 2px; width:6px;height:6px;background: #c6cfe9;margin-right:18px;border-radius: 50%;}
+.boardroom-list h4 span{font-size: 14px;}
+.boardroom-list p{padding:3px 0 0 24px;font-size: 12px;color: #afafaf;}
+.boardroom-other{margin-top:8px;padding:0 0 22px 32px; background: #fff;}
+.boardroom-other h3{line-height:65px;border-bottom:1px solid #eaeef6;font-size: 16px;color: #4c4c4c;font-weight: 600;}
+.boardroom-other a{display: block; padding-top:24px;color: #4c4c4c;}
+.boardroom-other div img{vertical-align: -6px;}
+.boardroom-list a img{position: absolute;left:95px;top:0;}
+.meeting-modular{padding: 0;}
+
+.meeting-search{ padding:0 50px;height:66px;line-height: 66px; border-bottom: 2px solid #7a8ce3;}
+.meeting-search>div{float: left;}
+.meeting-search>div i{color: #7a8ce3;font-size: 30px;}
+.meeting-search>i{float: right;color: #7a8ce3;font-size: 40px;}
+.meeting-reservation{padding:25px 50px 60px;}
+.meeting-search-year i{font-size:18px;}
+.meeting-search-year span{font-size:18px;font-weight:500;margin:0 5px;}
+.meeting-search-year i{font-size:18px;}
+.meeting-search-year span{font-size:18px;font-weight:500;margin:0 5px;}
+.meeting-search-tit{margin:70px 0 0 38px;position:relative;}
+.meeting-line{position:absolute;left:59px;top:-15px;width:1px;height:110%;background:#7a8ce3;}
+.meeting-search-list{margin-bottom:15px;}
+.meeting-search-time{float:left;margin-top:5px;}
+.meeting-search-time span{display:inline-block;width:36px;text-align:right;color:#7a8ce3;font-size:16px;}
+.meeting-search-time i{display:inline-block;margin-left:15px;width:10px;height:10px;border-radius:50%;background:#7a8ce3;}
+.meeting-search-content{float:left;margin-left:27px;}
+.meeting-search-title{margin-bottom:20px;}
+.meeting-search-title div{float:left;}
+.meeting-search-title h4{color:#4c4c4c;margin-bottom:3px;}
+.meeting-search-title p{font-size:12px;color:#afafaf}
+.meeting-search-title img{float:left;margin-left:10px;}
+.meeting-search-details{margin-bottom:25px;}
+.meeting-search-details>div{display:inline-block;padding:10px 30px;text-align:center;border:1px solid #c6cfe9;border-radius:5px;margin-right:10px;}
+.meeting-search-details>div  p{color:#4c4c4c;}
+.meeting-search-details>div  div{color:#7a8ce3;}
+.meeting-search-year i{font-size:18px;}
+.meeting-search-year span{font-size:18px;font-weight:500;margin:0 5px;}
+
+.boardroom-list a:hover h4 span{color:#7a8ce3;}

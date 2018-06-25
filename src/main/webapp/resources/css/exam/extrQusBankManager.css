@@ -1,0 +1,53 @@
+/*考试培训-题库管理*/
+.message-notification{padding: 45px 55px 100px;}
+.bg{position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 100000;background: rgba(0,0,0,0.4);overflow-x: hidden;overflow: auto;}
+.data-edit{position: relative;width: 700px;left:inherit;top: inherit !important;right: inherit !important;margin: 30 auto; transform:none !important;-webkit-transform:none !important;-ms-transform:none !important;-o-transform:none !important;}
+.books-table{margin-top: 24px;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 58px;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.books-search-time{float: right;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-weight:600;font-size:14px;}
+.books-search-time input::-webkit-input-placeholder{color: #7a8ce3;}
+.books-search-time .end-time{text-align: left;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.books-search-time select{margin-right:20px;color:#7a8ce3;padding-right:20px;background: url('../../images/app/select-icon.png') no-repeat 90% center;}
+.test-model .books-search-time select{width:92px;height:32px;margin:0 5px 0 0;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;}
+.test-model .books-search-time input{width:75px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;}
+.test-model .books-search-time select{width:92px;height:32px;margin:0 5px 0 0;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;}
+.test-model .books-search-time span{margin: 0 6px;}
+.test-model .books-search-time a{margin-left:5px;}
+.test-model .books-search input{width:82px;}
+.test-model{border: 1px solid #c6cfe9;}
+.subject>div{float:left;margin: 20px 0 10px;}
+.subject>div  a{float:left;width:160px;height:40px;line-height:40px;text-align:center;color:#4c4c4c;background:#eaeef6;margin-right:1px;}
+.subject>div a.hover{background:#7a8ce3;color:#fff;}
+.subject>a{float:right;margin: 20px 0 10px}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+.add-classification{display:block;margin:20px 0;width:165px;height:40px;line-height:40px;text-align:center;border:1px solid #c6cfe9;color:#4c4c4c;}
+.add-classification span{display:inline-block;width:18px;height:18px;vertical-align:-3px;line-height:44px;background:url('../../images/app/add.png') no-repeat center;background-size:cover;margin-right:18px;}
+.add-classification:hover span{background:url('../../images/app/add1.png') no-repeat center;background-size:cover;}
+.add-classification:hover{background:#7a8ce3;color:#fff;}
+/*添加题目*/
+.question-wrap{padding-bottom:50px;background: #fff;border-radius: 0 0 5px 5px;}
+.question-tab{width:100%;height:50px;background: #eaeef6;}
+.question-tab a{float: left;width:125px;line-height:50px;color: #4c4c4c;text-align: center;}
+.question-tab a.hover,.question-tab a:hover{color: #7a8ce3;background: #fff;}
+.question-edit{width: 100%;padding-left:30px;}
+.question-input{padding: 15px 0;}
+.question-input span{float: left;width:62px;text-align: right; color: #4c4c4c;margin:13px 20px 0 0;}
+.question-input input{float: left;width:420px;height:40px;padding-left:10px;border:1px solid #c6cfe9;border-radius: 5px;}
+.question-option input{width:150px;}
+.question-option span:last-child{width:100px;margin:0 0 0 15px;cursor:pointer;text-align: center;height:40px;line-height:40px;background:#999;border-radius: 5px;color:#fff;}
+.question-option span:last-child.hover{background:#7a8ce3;}
+.question-input select{float: left;width:200px;height:40px;text-indent:10px;background: url(../../images/app/select-icon.png) no-repeat 90% center;border:1px solid #c6cfe9;border-radius: 5px;margin-right:20px;}
+.question-answer{padding: 28px 0 0 30px;background: #fff;}
+.question-answer span{float: left;width:40px;height:40px;text-align:center;padding-top:5px;margin-right:11px;border-radius: 5px;background: #65b762;color: #fff;}
+.question-answer textarea{float: left;width:422px;height:160px;padding:10px;border:1px solid #c6cfe9;border-radius: 5px;}
+.question-btn{display: block;width:216px;height: 42px;margin:18px 0 0 36%; line-height:42px;background:#7a8ce3;text-align:center;color: #fff;border-radius: 5px;}
+.question-input input:focus,.question-answer textarea:focus{transition: all .5s; border:1px solid #7a8ce3;box-shadow: 0 0 3px #7a8ce3;}
+.question-btn1{margin:18px 0 0 132px;}
+.question-option1 input{width:250px;}

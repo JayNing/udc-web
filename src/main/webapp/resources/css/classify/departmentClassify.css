@@ -1,0 +1,16 @@
+/*部门分类css*/
+.message-notification{padding: 45px 27px 100px 55px;}
+.classification{border-bottom:1px solid #7a8ce3;margin-left: -55px;padding-left: 55px;}
+.classification a{float:left;width:160px;height:40px;line-height:40px;text-align:center;color:#7a8ce3;background:#eaeef6;margin-right:1px;}
+.classification a.hover{background:#7a8ce3;color:#fff;}
+.add-classification{display:block;margin:20px 0;width:165px;height:40px;line-height:40px;text-align:center;border:1px solid #c6cfe9;color:#4c4c4c;}
+.add-classification span{display:inline-block;width:18px;height:18px;vertical-align:-3px;line-height:44px;background:url('../../images/app/add.png') no-repeat center;background-size:cover;margin-right:18px;}
+.add-classification:hover span{background:url('../../images/app/add1.png') no-repeat center;background-size:cover;}
+.add-classification:hover{background:#7a8ce3;color:#fff;}
+.rectangle-user .data-edit{top:15%;}
+.rectangle-main{padding: 46px 0 70px 55px;background: #fff;border-radius: 0 0 5px 5px;}
+.rectangle-list{margin-bottom:27px;font-size: 0;}
+.rectangle-list span{display: inline-block;vertical-align: middle;font-size: 14px;color: #4c4c4c;}
+.rectangle-list>input{vertical-align: middle;width:390px;height:52px;padding-left:18px;border:1px solid #c6cfe9;border-radius: 5px;}
+.rectangle-list>input:focus{transition:all .5s;border:1px solid #7a8ce3;box-shadow:0 0 3px #7a8ce3;}
+.rectangle-main a{display: block;width:120px;height:42px;margin:27px 0 0 70px;background: #7a8ce3; border-radius:5px;color:#fff;line-height: 42px;text-align: center;}

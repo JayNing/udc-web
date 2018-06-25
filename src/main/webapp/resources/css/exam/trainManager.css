@@ -1,0 +1,49 @@
+/*考试培训-培训管理*/
+.message-notification{padding: 45px 55px 100px;}
+.books-title i{display:inline-block;vertical-align:middle;margin-right:10px;border:7px solid #7a8ce3;width:20px;height:20px;border-radius:50%;background:#fff;}
+.books-title span{display:inline-block;vertical-align: middle;font-weight:600; font-size:16px;}
+.books-title strong{color:#7a8ce3;font-weight:600;}
+.search-model{padding:0 30px;border:1px solid #c6cfe9;background: #fff; border-bottom:0;border-radius:5px 5px 0 0;margin-bottom:-1px;height:60px;line-height: 60px;}
+.test-model{border: 1px solid #c6cfe9;}
+.books-search{position: relative; float: left;}
+.books-search i{float:left;margin-right:10px;font-size: 36px;color: #7a8ce3;}
+.books-search input{float:left;width:175px;height: 58px;font-size: 16px;}
+.test-model .books-search input{width:82px;}
+.books-search-time select{margin-right:20px;color:#7a8ce3;padding-right:20px;background: url('../../images/app/select-icon.png') no-repeat 90% center;}
+.books-search-time input{width:85px;color: #7a8ce3;text-align: right;font-size:14px;}
+.books-search-time span{margin:0 30px;font-size:14px;}
+.books-search-time a{display:inline-block;margin-left:20px;width: 85px;height:33px;background: #7a8ce3;color: #fff;border-radius: 5px; text-align:center;line-height: 33px;font-size:14px;}
+.test-model .books-search-time input{width:75px;height:32px;border-radius:5px;border:1px solid #c6cfe9;text-align:center;}
+.test-model .books-search-time select{width:92px;height:32px;margin:0 5px 0 0;padding-left:15px;border-radius:5px;border:1px solid #c6cfe9;}
+.test-model .books-search-time span{margin: 0 6px;}
+.test-model .books-search-time a{margin-left:5px;}
+.test-model .books-search input{width:82px;}
+.test-model{border: 1px solid #c6cfe9;}
+.add-classification{display:block;margin:20px 0;width:165px;height:40px;line-height:40px;text-align:center;border:1px solid #c6cfe9;color:#4c4c4c;}
+.add-classification span{display:inline-block;width:18px;height:18px;vertical-align:-3px;line-height:44px;background:url('../../images/app/add.png') no-repeat center;background-size:cover;margin-right:18px;}
+.add-classification:hover span{background:url('../../images/app/add1.png') no-repeat center;background-size:cover;}
+.add-classification:hover{background:#7a8ce3;color:#fff;}
+.ewm a{text-decoration:underline;}
+.ewm a:first-child{color:#65b762;margin-right:10px;}
+.ewm a:nth-child(2){color:#7a8ce3;}
+.on-line{padding:70px 0 0 30px;}
+.assessment,.check,.statistic a{display: inline-block;padding: 8px 10px;color: #4c4c4c; border-radius: 5px;cursor:pointer;}
+.statistic a.hover{color:#fff;}
+.statistic a:nth-child(2){margin:0 3px;color:#65b762;}
+.statistic a:first-child.hover{background: #7a8ce3;}
+.statistic a:nth-child(2).hover{background: #65b762;color:#fff;}
+.statistic a:nth-child(3).hover{background: #8f9de7;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}
+
+/*参与人统计*/
+.data-edit-head .export{position: absolute;right:50px;top:0;width:150px;height:100%;background: #65b762;  text-align: center; line-height: 50px;color: #fff;}
+.data-edit-head .export img{vertical-align: -3px;}
+.export-tab{width: 100%;height:50px;line-height: 50px; background: #eaeef6;}
+.export-tab>a{float: left; width:145px;text-align: center;color: #4c4c4c;}
+.export-tab>a.hover{background: #fff;color: #7a8ce3;line-height: 50px;}
+.data-export{padding: 24px 46px 63px;background: #fff;border-radius: 0 0 5px 5px;}
+.data-export p span{color: #7a8ce3;}
+.data-export .books-table{margin-top:20px;}
+.books-page{margin-top:28px;text-align: center;}
+.books-page .page-text,.books-page .page-num{margin-right:5px;}

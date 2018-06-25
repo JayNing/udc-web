@@ -1,0 +1,14 @@
+body, html {
+  min-width: 1200px; }
+
+.icon-square {
+  border: 30px solid #000;
+  border-color: transparent;
+  border-top-color: #fff;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 50%;
+  margin-left: -30px; }
+
+/*# sourceMappingURL=var.css.map */
